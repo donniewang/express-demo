@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lowdb JSON File Database Example Starter</title>
+    <meta
+      name="description"
+      content="Lowdb JSON File Database Example Starter"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <header>
+      <h1>
+        Users
+      </h1>
+    </header>
+
+    <main>
+      <form
+        action="/new"
+        method="POST"
+        enctype="application/x-www-form-urlencoded"
+      >
+        <input
+          name="username"
+          type="text"
+          maxlength="100"
+          value=""
+          placeholder="username"
+        />
+        <input
+          name="password"
+          type="text"
+          maxlength="100"
+          value=""
+          placeholder="password"
+        /><input
+          name="email"
+          type="text"
+          maxlength="100"
+          value=""
+          placeholder="email"
+        />
+        <button type="submit">Add</button>
+      </form>
+      <section class="users">
+        <ul id="users"></ul>
+      </section>
+      <p><a href="/reset">Reset</a></p>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="/client.js"></script>
+  </body>
+</html>

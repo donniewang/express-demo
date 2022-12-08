@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "email": "admin@abc.com",
+      "password": "$2b$10$n0aqzpCO.4QqPQApmyM2BukoqNfa4stlmUiBEInyZAmgPt.5MUCJG",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZW1haWwiOiJhZG1pbkBhYmMuY29tIiwiaWF0IjoxNjc4ODQxODA1LCJleHAiOjE2Nzg5MjgyMDV9.wUPkJ_NG25R7CMhibdD5GvXwm6-kQHoSO07EKXNnyXg"
+    },
+    {
+      "username": "abc",
+      "email": "abc@abc.com",
+      "password": "$2b$10$XiPhwoaYoNDYiIK3R3.OJuf1xXblo34zN/47SwW6fWJeIiJuLcjW2"
+    }
+  ],
+  "online": [
+    {
+      "username": "admin",
+      "email": "admin@abc.com",
+      "password": "$2b$10$n0aqzpCO.4QqPQApmyM2BukoqNfa4stlmUiBEInyZAmgPt.5MUCJG",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZW1haWwiOiJhZG1pbkBhYmMuY29tIiwiaWF0IjoxNjc4ODQxODA1LCJleHAiOjE2Nzg5MjgyMDV9.wUPkJ_NG25R7CMhibdD5GvXwm6-kQHoSO07EKXNnyXg"
+    }
+  ]
+}
